@@ -1,0 +1,163 @@
+
+
+.lead{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 984px;
+    width: 100%;
+    top:90px;
+    
+}
+
+.lead__title{
+position: relative;
+font-weight: 900;
+font-size: 96px;
+line-height: 100px;
+letter-spacing: 0%;
+text-align: center;
+
+
+
+
+
+}
+
+.lead__subtitle {
+position: relative;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+letter-spacing: 0;
+text-align: center;
+max-width: 720px;
+
+top:32px;
+margin:auto
+}
+
+.lead__image{
+
+    position: relative;
+    width: 100%;
+    top: 64px;
+}
+
+
+
+
+@media (max-width: 768px) {
+    /* para Tablet*/
+    .lead{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        max-width: 530px;
+        width: 100%;
+        top:90px;
+        
+    }
+    
+    .lead__title{
+    position: relative;
+    width: 100%;
+    font-weight: 900;
+    font-size: 75px;
+    line-height: 79px;
+    letter-spacing: 0%;
+   
+    text-align: center;
+    margin:auto;
+    
+    
+    
+    
+    
+    }
+    
+    .lead__subtitle {
+    position: relative;
+    
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0;
+    text-align: center;
+    width: 100%;
+    max-width: 720px;
+    
+    top: 25px;
+    margin: auto;
+    
+    }
+    
+    .lead__image{
+        position: relative;
+        width: 100%;
+        top: 30px;
+    }
+
+
+
+
+
+
+}
+
+@media (max-width: 320px) {
+    /* para Tablet*/
+    .lead{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        max-width: 288px;
+        width: 100%;
+        top:50px;
+        
+    }
+    
+    .lead__title{
+    position: relative;
+    width: 100%;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 0%;
+
+    text-align: center;
+    margin:auto;
+
+    
+    
+    
+    
+    
+    }
+    
+    .lead__subtitle {
+    position: relative;
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: center;
+    width: 100%;
+    max-width: 288px;
+    top: 10px;
+    margin: auto;
+    
+    }
+    
+    .lead__image{
+        top:40px;
+        position: relative;
+        width: 100%;
+    }
+
+
+}
