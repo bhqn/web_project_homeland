@@ -1,0 +1,18 @@
+.noto-serif {
+    font-family: "Noto Serif", "Times New Roman", Times, serif;
+  }
+  
+  .inter {
+    font-family: "Inter", Arial, sans-serif;
+  }
+  
+  .span-accent {
+    max-width: 709px;
+    font-family: "Noto Serif";
+    font-style: italic;
+    font-weight: normal;
+    font-size: 58px;
+    line-height: 72px;
+    color: #2f80ed;
+    margin-top: 0;
+  }
