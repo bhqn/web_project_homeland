@@ -184,7 +184,7 @@ top: 40px;
     
     }
 
-    .intro_text_subtitle{
+    .intro__subtitle{
     position: relative;
     width: 100%;    
     
@@ -201,7 +201,7 @@ top: 40px;
     }
    
     
-    .intro__text_author{
+    .intro__author{
         text-align: right;
         position: relative;
         font-weight: 400;
@@ -219,7 +219,7 @@ top: 40px;
     
     }
     
-    .intro__text_description{
+    .intro__description{
         position: relative;
         width: 100%;
         
