@@ -1,6 +1,6 @@
 
-@media (max-width: 1280px) {
-    /* para pc */
+
+
  
 .intro{
     display: flex;
@@ -73,10 +73,10 @@ top: 40px;
 
 }
 
-}
 
 
-@media (max-width: 768px) {
+
+@media (max-width: 1024px) {
     /* para Tablet*/
 
     .intro{
@@ -158,7 +158,7 @@ top: 40px;
 
 }
 
-@media (max-width: 320px) {
+@media (max-width: 544px) {
     /* para smart*/
  
     .intro{

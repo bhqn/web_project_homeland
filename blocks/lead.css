@@ -1,5 +1,4 @@
 
-
 .lead{
     position: relative;
     display: flex;
@@ -48,7 +47,7 @@ margin:auto
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     /* para Tablet*/
     .lead{
         position: relative;
@@ -107,7 +106,7 @@ margin:auto
 
 }
 
-@media (max-width: 320px) {
+@media (max-width: 544px) {
     /* para Tablet*/
     .lead{
         position: relative;

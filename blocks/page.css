@@ -1,18 +1,4 @@
 
-.page{
-    background: #2A2C2F;
-    color: white;
-    font-size: 16px;
-    line-height: 20px;
-    max-width: 1280px;
-    align-content: center;
-    margin-right: auto;
-    margin-left: auto;
-    font-family: "Inter", Arial, sans-serif;
-}
-
-
-@media (max-width: 1280px) {
 
 .page{
     
@@ -27,10 +13,9 @@
     font-family: "Inter", Arial, sans-serif;
 
 }
-}
 
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     /* para Tablet*/
     .page{
         
@@ -49,7 +34,7 @@
 
 }
 
-@media (max-width: 320px) {
+@media (max-width: 544px) {
     /* para Tablet*/
     .page{
         
