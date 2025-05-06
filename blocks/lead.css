@@ -17,6 +17,8 @@ font-size: 96px;
 line-height: 100px;
 letter-spacing: 0;
 text-align: center;
+max-width: 720px;
+margin:auto;
 
 
 
@@ -54,7 +56,7 @@ margin:auto
         display: flex;
         flex-direction: column;
         margin: auto;
-        max-width: 530px;
+        max-width: 768px;
         width: 100%;
         top:90px;
         
@@ -67,9 +69,11 @@ margin:auto
     font-size: 75px;
     line-height: 79px;
     letter-spacing: 0;
+    max-width: 720px;
    
     text-align: center;
     margin:auto;
+ 
     
     
     
@@ -94,9 +98,10 @@ margin:auto
     }
     
     .lead__image{
+        
         position: relative;
         width: 100%;
-        top: 30px;
+        top:30px
     }
 
 
@@ -113,7 +118,7 @@ margin:auto
         display: flex;
         flex-direction: column;
         margin: auto;
-        max-width: 288px;
+        max-width: 320px;
         width: 100%;
         top:50px;
         
@@ -156,6 +161,7 @@ margin:auto
         top:40px;
         position: relative;
         width: 100%;
+        
     }
 
 
