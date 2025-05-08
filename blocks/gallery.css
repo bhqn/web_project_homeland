@@ -1,0 +1,17 @@
+.gallery{
+    position: relative;
+    max-width: 1184px;
+    width: 100%;
+    margin: auto;
+    top: 118px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap:16px;
+    bottom: 92px;
+}
+
+.gallery__image{
+    width: 284px;
+
+}
