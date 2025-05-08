@@ -4,7 +4,7 @@
     max-width: 983px;
     width: 100%;
     position: relative;
-    top:150px;
+    margin-top:92px;
    
 }
 
@@ -36,9 +36,17 @@
         
     }
 
+    .place__image:hover{
+        cursor: pointer;
+        filter: brightness(50%);
+      
+        
+    }
+
     .place__author_title{
         position: relative;
         margin-top: 161px;
+        margin-bottom: 0;
     font-weight: 400;
     font-size: 12px;
     line-height: 100%;
@@ -49,10 +57,22 @@
 
     }
 
+    .place__author_title-berea{
+        margin-top: 31px;
+        
+
+    }
+
+    .place__author_title-Muramvya{
+        margin-top: 107px;
+        
+
+    }
+
 
     .place__author_name{
        
-        
+        margin-TOP: 10PX;
         font-weight: 400;
         font-size: 18px;
         line-height: 163%;
@@ -81,16 +101,31 @@
     .place__button{
         background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
         position: relative;;
-        width: 356.08233642578125;
-height: 48;
-color:white;
-background-color: line;
-border-radius: 4px;
-padding-top: 13px;
-padding-right: 20px;
-padding-bottom: 13px;
-padding-left: 20px;
-gap: 10px;
-margin-top: 48px;
+        width: 100%;
+        max-width: 356.08233642578125px;
+        height: 48;
+        color:white;
+        background-color: line;
+        border-radius: 4px;
+        padding-top: 13px;
+        padding-right: 20px;
+        padding-bottom: 13px;
+        padding-left: 20px;
+        gap: 10px;
+        margin-top: 48px;
 
     }
+
+
+    .place__button:hover{
+        background: linear-gradient(90deg, rgba(2, 120, 254, 0.25) 0%, rgba(0, 58, 123, 0.25) 99.98%);
+        background-color: line;
+        cursor:pointer;
+   
+   
+
+   
+
+
+    }
+    
