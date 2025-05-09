@@ -3,18 +3,18 @@
     max-width: 983px;
     margin: 92px auto 0;
   }
-  
+
   .place__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: auto 347px auto;
     grid-template-areas:
       "titulo autor"
       "imagem paragrafo"
       "botao paragrafo";
     gap: 40px;
   }
-  
+
   .place__title {
     grid-area: titulo;
     margin: 0;
@@ -22,10 +22,10 @@
     font-size: 72px;
     line-height: 76px;
     letter-spacing: 0;
-    
+
     max-width: 460px;
   }
-  
+
   .place__author {
     grid-area: autor;
     align-self: self-end;
@@ -36,33 +36,50 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 100%;
-  
+
   text-transform: uppercase;
 
 
   }
-  
+
   .place__image {
     grid-area: imagem;
     width: 100%;
     max-width: 460px;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
   }
-  
-  .place__paragraph {
+
+  .place__image:hover{
+    filter: brightness(70%);
+    cursor: pointer;
+  }
+
+  .place__text {
     grid-area: paragrafo;
     margin-bottom: 25px;
+  }
+
+  .place__paragraph{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    letter-spacing: 0;
+
+
   }
 
   .place__br{
     margin-bottom: 100px;
   }
-  
+
   .place__button {
     margin-top: 8px;
     grid-area: botao;
     justify-self: start;
-    background: linear-gradient( #0278FE 0.56%, #003A7B 100%);
+
+    background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
+
 
     color: white;
     padding: 13px 20px;
@@ -74,14 +91,23 @@
     max-height: 48px;
   }
 
+  .place__button:hover {
+
+
+    background: linear-gradient(90deg, rgba(2, 120, 254, 0.25) 0%, rgba(0, 58, 123, 0.25) 99.98%);
+    cursor:pointer;
+
+  }
+
   @media (max-width: 1024px) {
 
     .place {
       width: 100%;
       max-width: 720px;
       margin: 72px auto 0;
+
     }
-    
+
     .place__content {
       width: 100%;
       display: grid;
@@ -92,56 +118,65 @@
         "imagem paragrafo"
         "botao paragrafo";
       gap: 26px;
+
     }
-    
+
     .place__title {
       grid-area: titulo;
       margin-bottom: 12px;
+
       font-weight: 900;
-      font-size: 72px;
-      line-height: 76px;
+      font-size: 42px;
+      line-height: 46px;
       letter-spacing: 0;
-      
+
       max-width: 460px;
     }
-    
+
     .place__author {
       grid-area: autor;
       align-self: self-end;
     }
-    
+
     .place__image {
-      
+
       grid-area: imagem;
       width: 100%;
       max-width: 347px;
       box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
     }
-    
-    .place__paragraph {
+
+    .place__text {
       width: 100%;
       max-width: 352px;
       grid-area: paragrafo;
       margin: 0;
-      font-family: Inter;
+      letter-spacing: 0;
+
+    }
+
+    .place__paragraph{
+
       font-weight: 400;
       font-size: 16px;
       line-height: 163%;
       letter-spacing: 0;
 
+
+
     }
-  
+
     .place__br{
       margin-bottom: 100px;
     }
-    
+
     .place__button {
       box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
       grid-area: botao;
       position: relative;
       margin-top: 0;
-     
-      background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
+
+
       color: white;
       padding: 13px 20px;
       border: none;
@@ -167,7 +202,7 @@
       max-width: 320px;
       margin: 62px auto 0;
     }
-    
+
     .place__content {
       width: 100%;
       display: grid;
@@ -175,15 +210,15 @@
       grid-template-rows: auto ;
       grid-template-areas:
         "titulo"
-        "autor" 
+        "autor"
         "imagem"
         "paragrafo"
         "botao";
       gap: 30px;
     }
-    
+
     .place__title {
-      
+
       width: 288px;
       margin: auto;
       grid-area: titulo;
@@ -194,45 +229,51 @@
       line-height: 35px;
       letter-spacing: 0;
 
-      
+
       max-width: 460px;
     }
-    
+
     .place__author {
       margin: auto;
       width: 288px;
       grid-area: autor;
       align-self: self-end;
     }
-    
+
     .place__image {
-      
+
       grid-area: imagem;
       width: 100%;
       max-width: 347px;
       box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
     }
-    
-    .place__paragraph {
+
+    .place__text {
       width: 100%;
       max-width: 288px;
       grid-area: paragrafo;
       margin: auto;
-      
+
+
+
+    }
+
+    .place__paragraph{
       font-weight: 400;
       font-size: 16px;
       line-height: 163%;
-      
       letter-spacing: 0;
 
     }
-  
+
+
+
     .place__br{
       margin-bottom: 100px;
     }
-    
+
     .place__button {
-      
+
       grid-area: botao;
       position: static;
       margin-top: 0;
@@ -245,6 +286,9 @@
       max-width: 355px;
       width: 100%;
     }
+
+
+
 
 
 
