@@ -7,7 +7,7 @@
   .place__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto 347px auto;
+    grid-template-rows: auto 450px auto;
     grid-template-areas:
       "titulo autor"
       "imagem paragrafo"
