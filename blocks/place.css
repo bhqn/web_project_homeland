@@ -51,7 +51,7 @@
   
   .place__paragraph {
     grid-area: paragrafo;
-    margin: 0;
+    margin-bottom: 25px;
   }
 
   .place__br{
