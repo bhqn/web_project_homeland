@@ -31,7 +31,7 @@
     align-self: self-end;
   }
 
-  .place__author_title{
+  .place__author-title{
   color:#AAAAAA;
   font-weight: 400;
   font-size: 12px;
@@ -62,7 +62,8 @@
     margin-top: 8px;
     grid-area: botao;
     justify-self: start;
-    background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
+    background: linear-gradient( #0278FE 0.56%, #003A7B 100%);
+
     color: white;
     padding: 13px 20px;
     border: none;
