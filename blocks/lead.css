@@ -1,12 +1,12 @@
 
 .lead{
-    position: relative;
+    position: static;
     display: flex;
     flex-direction: column;
     margin: auto;
     max-width: 984px;
     width: 100%;
-    top:90px;
+    margin-top:90px;
     
 }
 
@@ -131,6 +131,7 @@ margin:auto
     font-size: 40px;
     line-height: 44px;
     letter-spacing: 0;
+    max-width: 228px;
 
     text-align: center;
     margin:auto;

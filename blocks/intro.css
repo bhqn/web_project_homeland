@@ -4,7 +4,7 @@
  
 .intro{
     display: flex;
-    position: relative;
+    
     flex-direction: column;
     justify-content: center;
     max-width: 830px;
@@ -81,7 +81,7 @@ top: 40px;
 
     .intro{
         display: flex;
-        position: relative;
+        
         flex-direction: column;
         justify-content: center;
         max-width: 720px;
@@ -90,7 +90,7 @@ top: 40px;
         
     }
     .intro__title{
-        top:90px;
+        margin-top:90px;
         position: relative;
         width: 100%;
         max-width: 707px;
